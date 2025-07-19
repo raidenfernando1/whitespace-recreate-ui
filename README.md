@@ -17,7 +17,8 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Design
 
 The UI/UX design for this project is available on [Figma](https://www.figma.com/community/file/1156860863353724933). 
-The Illustration design for this project is available on [Undraw](https://undraw.co).
+
+The Illustration design for this project is available on [unDraw](https://undraw.co).
 
 > Note: You may need a Figma account and permissions to view.
 

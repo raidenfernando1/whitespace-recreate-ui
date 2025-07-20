@@ -10,6 +10,7 @@ function Home() {
       <Navbar />
       <Section
         image={DataImg}
+        buttonText="Try Whitespace free"
         className="lg:min-h-[70vh]"
         textColor="text-[#FFFFFF]"
         background="bg-[#043873]"
@@ -19,6 +20,7 @@ function Home() {
       />
       <Section
       image={TeamCollaboration}
+      buttonText="Get Started"
       textColor="text-[#212529]"
       background="bg-[#FFFFFF]"
         title="Project Management"
@@ -26,6 +28,7 @@ function Home() {
       />
       <Section
       className = "lg:flex-row-reverse "
+      buttonText="Try it now"
       image={OnlineCommunity}
       textColor="text-[#212529]"
       background="bg-[#FFFFFF]"

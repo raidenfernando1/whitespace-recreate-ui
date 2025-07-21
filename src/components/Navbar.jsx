@@ -1,3 +1,4 @@
+import ArrowRight from "../assets/icons/ArrowRight";
 import MenuIcon from "../assets/icons/MenuIcon";
 import Logo from "../assets/Logo.svg";
 
@@ -23,8 +24,8 @@ function Navbar() {
         <button className="hidden w-20 cursor-pointer rounded bg-[#FFE492] p-2 text-[#043873] hover:bg-[#FFFFFF] hover:text-[#212529] sm:block">
           Login
         </button>
-        <button className="hidden w-40 cursor-pointer rounded bg-[#4F9CF9] p-2 text-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#212529] sm:block">
-          Try Whitespace free
+        <button className="hidden w-auto cursor-pointer rounded bg-[#4F9CF9] p-2 text-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#212529] sm:block">
+          Try Whitespace free <ArrowRight/>
         </button>
         <MenuIcon />
       </div>

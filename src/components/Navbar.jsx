@@ -24,7 +24,7 @@ function Navbar() {
         <button className="hidden w-20 cursor-pointer rounded bg-[#FFE492] p-2 text-[#043873] hover:bg-[#FFFFFF] hover:text-[#212529] sm:block">
           Login
         </button>
-        <button className="hidden w-auto cursor-pointer rounded bg-[#4F9CF9] p-2 text-[#FFFFFF] hover:bg-[#FFFFFF] hover:text-[#212529] sm:block">
+        <button className="hidden w-auto cursor-pointer rounded bg-[#4F9CF9] p-2 text-[#FFFFFF] hover:bg-[#A7CEFC] hover:text-[#212529] sm:block">
           Try Whitespace free <ArrowRight/>
         </button>
         <MenuIcon />

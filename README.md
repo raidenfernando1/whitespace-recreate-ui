@@ -20,5 +20,7 @@ The UI/UX design for this project is available on [Figma](https://www.figma.com/
 
 The Illustration design for this project is available on [unDraw](https://undraw.co).
 
+The Icons for this project is available on [HeroIcons](https://heroicons.com/).
+
 > Note: You may need a Figma account and permissions to view.
 

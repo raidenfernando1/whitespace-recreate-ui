@@ -1,5 +1,5 @@
 
-const basicBenefits = [
+export const basicBenefits = [
       "Sync unlimited devices",
       "10 GB monthly uploads",
       "200 MB max. note size",
@@ -8,7 +8,7 @@ const basicBenefits = [
       "Add due dates. reminders, and notifications to your tasks",
     ];
 
-export const plan = [
+export const planInfo = [
   {
     id: 0,
     tier: "Free",

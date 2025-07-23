@@ -5,6 +5,7 @@ import TeamCollaboration from "../assets/TeamCollaboration.svg"
 import OnlineCommunity from "../assets/OnlineCommunity.svg"
 import Browsers from "../assets/Browsers.svg"
 import Customize from "../assets/Customize.svg"
+import Plan from "../components/Plan";
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
       className="lg:min-h-[50vh]"
       buttonText="Get Started"
       textColor="text-[#212529]"
-      background="bg-[#FFFFFF]"
+      background="bg-[#FFFFFF]"go
         headerText="Project "
         headerHighlighted="Management"
         description="Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobiles app and save them to a note."
@@ -64,6 +65,7 @@ function Home() {
         description="Customize the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API."
 
       />
+      <Plan/>
     </>
   );
 }

@@ -15,7 +15,7 @@ function Home() {
         image={DataImg}
         buttonText="Try Whitespace free"
         className="lg:min-h-[70vh]"
-        textColor="text-[#FFFFFF]"
+        textColor="text-secondary-white"
         background="bg-[url(./assets/HeroBackground.svg)] bg-no-repeat bg-center"
         headerText="Get More Done with Whitespace"
         description="Project management software that enables your teams to collaborate,
@@ -25,8 +25,8 @@ function Home() {
       image={TeamCollaboration}
       className="lg:min-h-[50vh]"
       buttonText="Get Started"
-      textColor="text-[#212529]"
-      background="bg-[#FFFFFF]"go
+      textColor="text-secondary-black"
+      background="bg-secondary-white"
         headerText="Project "
         headerHighlighted="Management"
         description="Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobiles app and save them to a note."
@@ -35,8 +35,8 @@ function Home() {
       className = "lg:flex-row-reverse lg:min-h-[50vh]"
       buttonText="Try it now"
       image={OnlineCommunity}
-      textColor="text-[#212529]"
-      background="bg-[#FFFFFF]"
+      textColor="text-secondary-black"
+      background="bg-secondary-white"
         headerText="Work "
         headerHighlighted="Together"
         description="With whitespace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet share the URL with others."
@@ -46,8 +46,8 @@ function Home() {
         className="lg:min-h-[30vh]"
         buttonText={"Let's Go"}
         image={Browsers}
-        background="bg-[#043873]"
-        textColor="text-[#FFFFFF]"
+        background="bg-primary-darkBlue"
+        textColor="text-secondary-white"
         headerText="Use as "
         headerHighlighted="Extension"
         imgSize="h-80"
@@ -58,8 +58,8 @@ function Home() {
       className = "lg:flex-row-reverse lg:min-h-[50vh]"
       buttonText="Let's Go"
       image={Customize}
-      textColor="text-[#212529]"
-      background="bg-[#FFFFFF]"
+      textColor="text-secondary-black"
+      background="bg-secondary-white"
         headerText="Customize it to "
         headerHighlighted="your needs"
         description="Customize the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API."

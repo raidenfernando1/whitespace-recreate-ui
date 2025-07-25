@@ -12,3 +12,7 @@
   --color-secondary-white: #ffffff;
   --color-secondary-black: #212529;
 }
+
+body {
+  @apply font-inter
+}

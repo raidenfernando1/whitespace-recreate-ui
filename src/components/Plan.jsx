@@ -1,25 +1,24 @@
-import Button from "./Button";
 import { planInfo, basicBenefits } from "./planInfo";
+import { PlanButton } from "./Button";
+import CheckIcon from "../assets/icons/CheckIcon";
 
 function PlanBox() {
   return (
-    <div className="text-secondary-black flex w-full flex-wrap justify-center text-center">
+    <div className="text-secondary-black flex w-full justify-center text-center">
       {planInfo.map((plan) => (
         <div
           key={plan.id}
-          className="border-secondary-yellow m-2 border-1 border-solid text-left"
+          className="border-secondary-yellow m-2 border-1 border-solid text-left hover:bg-primary-darkBlue p-10 group rounded-xl"
         >
-          <h2>{plan.tier}</h2>
-          <h1>{plan.price}</h1>
-          <p>{plan.description}</p>
+          <h2 className="text-xl font-bold mb-8 group-hover:text-secondary-white">{plan.tier}</h2>
+          <h1 className="text-3xl font-bold mb-8 group-hover:text-secondary-yellow">{plan.price}</h1>
+          <p className="mb-4 group-hover:text-secondary-white">{plan.description}</p>
           <ul>
             {basicBenefits.map((benefit, index) => (
-              <li key={index}>{benefit}</li>
+              <li key={index} className="mb-5 group-hover:text-secondary-white"><CheckIcon/> {benefit}</li>
             ))}
           </ul>
-          <button className="mb-5 cursor-pointer rounded bg-[#4F9CF9] px-5 py-3 text-base text-[#FFFFFF] hover:bg-[#A7CEFC] hover:text-[#212529]">
-            Get Started
-          </button>
+          <PlanButton text="Get Started"/>
         </div>
       ))}
     </div>

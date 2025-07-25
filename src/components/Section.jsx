@@ -1,5 +1,5 @@
 
-import Button from "./Button";
+import { DefaultButton } from "./Button";
 
 function Section({
   background,
@@ -29,7 +29,7 @@ function Section({
           <p className="mb-5 px-5 pb-4 text-lg lg:my-5 lg:px-0">
             {description}
           </p>
-          <Button text={buttonText} />
+          <DefaultButton text={buttonText} />
         </div>
       </div>
 

@@ -1,13 +1,18 @@
-import ArrowRight from '../assets/icons/ArrowRight'
+import ArrowRight from "../assets/icons/ArrowRight";
 
-
-function Button ({text}) {
-    return(
-        <button className="cursor-pointer mb-5 rounded bg-[#4F9CF9] px-5 py-3 text-base text-[#FFFFFF] hover:bg-[#A7CEFC] hover:text-[#212529]">
-            {text}
-            <ArrowRight/>
-        </button>
-    )
+export function DefaultButton({ text }) {
+  return (
+    <button className="mb-5 cursor-pointer rounded bg-primary-lightBlue px-5 py-3 text-base text-secondary-white hover:bg-secondary-blue hover:text-secondary-black">
+      {text}
+      <ArrowRight />
+    </button>
+  );
 }
 
-export default Button
+export function PlanButton({ text }) {
+  return (
+    <button className="border-secondary-yellow m-2 mb-5 cursor-pointer rounded-md border-1 border-solid px-10 py-3 text-base group-hover:bg-primary-lightBlue group-hover:border-none group-hover:text-secondary-white hover:bg-secondary-blue hover:text-secondary-black">
+      {text}
+    </button>
+  );
+}

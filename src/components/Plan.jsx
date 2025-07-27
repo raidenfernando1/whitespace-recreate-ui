@@ -4,16 +4,16 @@ import CheckIcon from "../assets/icons/CheckIcon";
 
 function PlanBox() {
   return (
-    <div className="text-secondary-black flex w-full justify-center text-center">
+    <div className="text-secondary-black flex justify-center flex-wrap lg:flex-nowrap  lg:px-10 text-center ">
       {planInfo.map((plan) => (
         <div
           key={plan.id}
-          className="border-secondary-yellow m-2 border-1 border-solid text-left hover:bg-primary-darkBlue p-10 group rounded-xl"
+          className="border-secondary-yellow  lg:w-auto m-2 border-1 border-solid text-left hover:bg-primary-darkBlue p-10 group rounded-xl  w-80"
         >
           <h2 className="text-xl font-bold mb-8 group-hover:text-secondary-white">{plan.tier}</h2>
           <h1 className="text-3xl font-bold mb-8 group-hover:text-secondary-yellow">{plan.price}</h1>
           <p className="mb-4 group-hover:text-secondary-white">{plan.description}</p>
-          <ul>
+          <ul className="hidden lg:inline-block">
             {basicBenefits.map((benefit, index) => (
               <li key={index} className="mb-5 group-hover:text-secondary-white"><CheckIcon/> {benefit}</li>
             ))}
@@ -27,7 +27,7 @@ function PlanBox() {
 
 function Plan() {
   return (
-    <div>
+    <div className="my-14">
       <div className="text-secondary-black text-center">
         <h1 className="mb-6 text-4xl font-bold lg:text-6xl">
           Choose{" "}

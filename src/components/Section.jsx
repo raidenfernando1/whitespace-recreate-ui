@@ -13,7 +13,7 @@ function Section({
   imgSize,
 }) {
   return (
-    <div
+    <section
       className={`flex w-full flex-col overflow-hidden ${background} lg:flex-row lg:items-center lg:justify-between ${className}`}
     >
       <div className="mt-20 flex justify-center lg:m-0 lg:flex-1">
@@ -40,7 +40,7 @@ function Section({
           className={`mt-5 mb-10 ${imgSize ?? "h-auto"} max-w-[250px] rounded-lg sm:max-w-[300px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[600px]`}
         />
       </div>
-    </div>
+    </section>
   );
 }
 

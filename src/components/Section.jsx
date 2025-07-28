@@ -16,11 +16,11 @@ function Section({
     <section
       className={`flex w-full flex-col overflow-hidden ${background} lg:flex-row lg:items-center lg:justify-between ${className}`}
     >
-      <div className="mt-20 flex justify-center lg:m-0 lg:flex-1">
+      <div className="mt-20 flex justify-center lg:m-0 lg:flex-1 px-4">
         <div
           className={`max-w-xl text-center ${textColor} lg:ml-10 lg:pr-20 lg:text-left`}
         >
-          <h1 className="mb-6 text-4xl font-bold lg:text-6xl">
+          <h1 className="mb-6 text-4xl font-bold lg:text-5xl py-5">
             {headerText}
             <span className="bg-[url(./assets/Element.svg)] bg-contain bg-bottom bg-no-repeat">
               {headerHighlighted}

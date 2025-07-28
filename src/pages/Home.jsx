@@ -6,6 +6,7 @@ import OnlineCommunity from "../assets/OnlineCommunity.svg"
 import Browsers from "../assets/Browsers.svg"
 import Customize from "../assets/Customize.svg"
 import Plan from "../components/Plan";
+import Devices from "../assets/Devices.svg"
 
 function Home() {
   return (
@@ -66,6 +67,17 @@ function Home() {
 
       />
       <Plan/>
+
+      <Section
+      className = " lg:min-h-[70vh]"
+      buttonText="Try Whitespace"
+      image={Devices}
+      textColor="text-secondary-white"
+      background="bg-primary-darkBlue"
+      headerText="Your work, everywhere "
+      headerHighlighted="you are"
+      description="Access your notes from your computer, phone or tablet by synchronizing with various services, including whitespace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!"
+      />
     </>
   );
 }

@@ -7,6 +7,8 @@ import Browsers from "../assets/Browsers.svg"
 import Customize from "../assets/Customize.svg"
 import Plan from "../components/Plan";
 import Devices from "../assets/Devices.svg"
+import Secure  from "../assets/Secure.svg"
+import SponsorSection from "../components/SponsorSection";
 
 function Home() {
   return (
@@ -14,6 +16,7 @@ function Home() {
       <Navbar />
       <Section
         image={DataImg}
+ 
         buttonText="Try Whitespace free"
         className="lg:min-h-[70vh]"
         textColor="text-secondary-white"
@@ -74,10 +77,24 @@ function Home() {
       image={Devices}
       textColor="text-secondary-white"
       background="bg-primary-darkBlue"
+
       headerText="Your work, everywhere "
       headerHighlighted="you are"
       description="Access your notes from your computer, phone or tablet by synchronizing with various services, including whitespace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!"
       />
+      
+      <Section
+      className="lg:min-h-[70vh] flex-col-reverse"
+      buttonText="Read more"
+      image={Secure}
+      textColor="text-secondary-black"
+      background="bg-secondary-white"
+      headerText="100% "
+
+      headerHighlighted="your data"
+      description="This app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them."
+      />
+      <SponsorSection/>
     </>
   );
 }

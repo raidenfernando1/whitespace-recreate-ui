@@ -1,0 +1,91 @@
+[33mcommit 0d227d92f9969a328be6813241328dba046f9492[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Sun Jul 27 21:18:57 2025 +0800
+
+    Added navbar button for smaller screens.
+
+[33mcommit 7526ddadff382d7549bf91e810dbd2741da18f2b[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Fri Jul 25 13:42:41 2025 +0800
+
+    added color theme, updated styles.
+
+[33mcommit c90e47e93995a63a0d751b2820abaf817752a18f[m
+Merge: dd57a3d e4299cc
+Author: Arteed <arteed19@gmail.com>
+Date:   Thu Jul 24 00:05:10 2025 +0800
+
+    Merge branch 'master' of https://github.com/Arteeed/whitespace-recreate-ui
+
+[33mcommit dd57a3d90519fb70b817f9ca7225965873d11c71[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Thu Jul 24 00:01:04 2025 +0800
+
+    Added Plan Section, removed unnecessary dependencies
+
+[33mcommit e4299cc73a05b4c8a01d214129597e984018e793[m
+Author: Arteed <94946855+Arteeed@users.noreply.github.com>
+Date:   Tue Jul 22 00:22:33 2025 -0700
+
+    Update README.md
+
+[33mcommit b6244ccbbcd9fdd4a53ea6cf1a1ea4269b364ee4[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Tue Jul 22 15:19:09 2025 +0800
+
+    updated the button hover bg color, added new section.
+
+[33mcommit a409797a502d55691fb05640c0c8b682319987ed[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Tue Jul 22 00:35:33 2025 +0800
+
+    updated some sections, buttons, make more comparable to the design
+
+[33mcommit 17007dbac05e4d6dbf5b5a3d91aa3b66c8000d7d[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Mon Jul 21 01:34:42 2025 +0800
+
+    updated the button into reusable component instead of hardcoded, some minor font adjustments
+
+[33mcommit b80ac11a983c0627f046e3854506349e3ad8f939[m
+Merge: ead2e52 de97548
+Author: Arteed <arteed19@gmail.com>
+Date:   Sun Jul 20 23:04:56 2025 +0800
+
+    Merge branch 'master' of https://github.com/Arteeed/whitespace-recreate-ui
+
+[33mcommit ead2e52724da09bd018702e4f83091253ebbc590[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Sun Jul 20 22:59:41 2025 +0800
+
+    Update the Sections and Illustraions
+
+[33mcommit de97548944924f2de73b37774c9aa7ce187449b9[m
+Author: Arteed <94946855+Arteeed@users.noreply.github.com>
+Date:   Sat Jul 19 17:01:11 2025 +0800
+
+    Update README.md
+
+[33mcommit a1266d24dcad5bf15738dbec76323e33721ca33d[m
+Author: Arteed <94946855+Arteeed@users.noreply.github.com>
+Date:   Sat Jul 19 17:00:21 2025 +0800
+
+    Update README.md
+
+[33mcommit 9197478fcd022453aa4d78834bd9d331cf31f8d8[m
+Author: Arteed <94946855+Arteeed@users.noreply.github.com>
+Date:   Sat Jul 19 16:59:55 2025 +0800
+
+    Update README.md
+
+[33mcommit 4161149cb8401df67bc9572252a51b5718448311[m
+Author: Arteed <94946855+Arteeed@users.noreply.github.com>
+Date:   Sat Jul 19 16:50:29 2025 +0800
+
+    Update README.md
+
+[33mcommit 27953f85112eb7932edf2a5b8e95304457d8fe9b[m
+Author: Arteed <arteed19@gmail.com>
+Date:   Sat Jul 19 16:35:48 2025 +0800
+
+    Added initial files and add initial components/pages and assets

@@ -1,14 +1,14 @@
-import { planInfo, basicBenefits } from "./planInfo";
-import { PlanButton } from "./Button";
-import CheckIcon from "../assets/icons/CheckIcon";
+import { planInfo, basicBenefits } from "../../data/planInfo";
+import { PlanButton } from "../ui/Button";
+import CheckIcon from "../../assets/icons/CheckIcon";
 
 function PlanBox() {
   return (
-    <div className="text-secondary-black flex justify-center flex-wrap lg:flex-nowrap  lg:px-10 text-center ">
+    <div className="text-secondary-black flex justify-center flex-wrap lg:flex-nowrap  lg:px-10 text-center gap-5 ">
       {planInfo.map((plan) => (
         <div
           key={plan.id}
-          className="border-secondary-yellow  lg:w-auto m-2 border-1 border-solid text-left hover:bg-primary-darkBlue p-10 group rounded-xl  w-80"
+          className="border-secondary-yellow  lg:w-90 m-2 border-1 border-solid text-left hover:bg-primary-darkBlue p-10 group rounded-xl w-85 transition ease duration-[0.5s]"
         >
           <h2 className="text-xl font-bold mb-8 group-hover:text-secondary-white">{plan.tier}</h2>
           <h1 className="text-3xl font-bold mb-8 group-hover:text-secondary-yellow">{plan.price}</h1>

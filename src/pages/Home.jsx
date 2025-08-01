@@ -1,5 +1,6 @@
 import Navbar from "../components/ui/Navbar";
 import Hero from "../components/sections/Hero";
+import Productivity from "../components/sections/Productivity";
 
 
 
@@ -9,6 +10,7 @@ function Home() {
     <>
       <Navbar/>
       <Hero/>
+      <Productivity/>
       
     </>
   );

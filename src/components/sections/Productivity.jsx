@@ -4,13 +4,13 @@ import OnlineCommunity from "../../assets/OnlineCommunity.svg";
 
 function Productivity() {
   return (
-    <div className="lg:h-[90vh]">
-      <section className="bg-secondary-white flex flex-col items-center justify-around text-center lg:flex-row lg:text-left xl:gap-10 lg:h-[45vh]">
+    <div>
+      <section className="bg-secondary-white flex flex-col items-center justify-around text-center lg:flex-row lg:text-left xl:gap-10">
         <div className="text-secondary-black lg:mx-5 xl:w-xl">
           <h1 className="mt-10 mb-5 text-4xl font-bold lg:text-5xl xl:text-6xl">
             Project Management
           </h1>
-          <p className="my-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-xl xl:text-2xl">
+          <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-xl xl:text-2xl">
             Images, videos, PDFs and audio files are supported. Create math
             expressions and diagrams directly from the app. Take photos with the
             mobile app and save them to a note.
@@ -21,12 +21,12 @@ function Productivity() {
           <img src={TeamCollaboration} alt="Image from unDraw.co" />
         </div>
       </section>
-      <section className="bg-secondary-white flex flex-col items-center justify-around text-center lg:flex-row-reverse lg:text-left xl:gap-10 lg:h-[45vh]">
+      <section className="bg-secondary-white flex flex-col items-center justify-around text-center lg:flex-row-reverse lg:text-left xl:gap-10">
         <div className="text-secondary-black lg:mx-5 xl:w-xl">
           <h1 className="mt-10 mb-5 text-4xl font-bold lg:text-5xl xl:text-6xl">
             Project Management
           </h1>
-          <p className="my-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-xl xl:text-2xl">
+          <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-xl xl:text-2xl">
             Images, videos, PDFs and audio files are supported. Create math
             expressions and diagrams directly from the app. Take photos with the
             mobile app and save them to a note.

@@ -1,9 +1,18 @@
-import Apple from "../assets/Apple.svg";
-import Microsoft from "../assets/Microsoft.svg";
-import Slack from "../assets/Slack.svg";
-import Google from "../assets/Google.svg";
+import Apple from "../../assets/Apple.svg";
+import Microsoft from "../../assets/Microsoft.svg";
+import Slack from "../../assets/Slack.svg";
+import Google from "../../assets/Google.svg";
 
-function Sponsor({imgSize = 'w-40 md:w-45 lg:w-55'}) {
+function SponsorLogo ({Logo, logoName, imgSize = 'w-40 md:w-45 lg:w-55'}){
+  return (
+    <img src={Logo} className={imgSize} alt={logoName} />
+  );
+}
+
+
+
+
+function Sponsor() {
   return (
     <div className="w-full text-center">
       <div className="my-10">
@@ -15,10 +24,10 @@ function Sponsor({imgSize = 'w-40 md:w-45 lg:w-55'}) {
         </h1>
       </div>
       <div className="flex flex-col items-center justify-around gap-5 sm:mx-5 sm:flex-row my-10">
-        <img src={Apple} className={imgSize} alt="Apple Logo" />
-        <img src={Microsoft} className={imgSize} alt="Microsoft Logo" />
-        <img src={Slack} className={imgSize} alt="Slack Logo" />
-        <img src={Google} className={imgSize} alt="Google Logo" />
+        <SponsorLogo Logo={Apple} logoName="Apple Logo"/>
+        <SponsorLogo Logo={Microsoft} logoName="Microsoft Logo"/>
+        <SponsorLogo Logo={Slack} logoName="Slack Logo"/>
+        <SponsorLogo Logo={Google} logoName="Google Logo"/>
       </div>
     </div>
   );

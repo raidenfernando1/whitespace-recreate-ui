@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="mt-10 mb-5 text-4xl font-bold lg:text-5xl xl:text-6xl">
           Get More Done with Whitespace
         </h1>
-        <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-xl xl:text-2xl">
+        <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-lg xl:text-xl">
           Project management software that enables your teams to collaborate,
           plan, analyze and manage every tasks
         </p>

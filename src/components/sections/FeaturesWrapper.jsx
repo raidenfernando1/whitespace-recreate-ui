@@ -9,6 +9,7 @@ function Features({
   bgColor = "bg-primary-darkBlue",
   reverse = false,
   imgSize,
+  highlightedText,
 }) {
   return (
     <section
@@ -16,9 +17,11 @@ function Features({
     >
       <div className="lg:mx-5 xl:w-xl">
         <h1 className="mt-10 mb-5 text-4xl font-bold lg:text-5xl xl:text-6xl">
-          {title}
+          {title}<span className="bg-[url(./assets/Element.svg)] bg-contain bg-bottom bg-no-repeat">
+            {highlightedText}
+          </span>
         </h1>
-        <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-xl xl:text-2xl">
+        <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-lg xl:text-xl">
           {description}
         </p>
         <DefaultButton text="Let's Go" />
@@ -36,13 +39,15 @@ function FeaturesWrapper() {
   return (
     <div>
       <Features
-        title="Use as Extension"
+        title="Use as "
+        highlightedText="Extension"
         description="Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes."
         image={Browsers}
         imgSize="max-w-80"
       />
       <Features
-        title="Customize it to your needs"
+        title="Customize it to "
+        highlightedText="your needs"
         description="Customize the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API."
         image={Customize}
         reverse={true}

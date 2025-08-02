@@ -1,4 +1,4 @@
-import { planInfo, basicBenefits } from "../../data/planInfo";
+import { planInfo } from "../../data/planInfo";
 import { PlanButton } from "../ui/Button";
 import CheckIcon from "../../assets/icons/CheckIcon";
 
@@ -14,7 +14,7 @@ function PlanBox() {
           <h1 className="text-3xl font-bold mb-8 group-hover:text-secondary-yellow">{plan.price}</h1>
           <p className="mb-4 group-hover:text-secondary-white">{plan.description}</p>
           <ul className="hidden lg:inline-block">
-            {basicBenefits.map((benefit, index) => (
+            {plan.benefits.map((benefit, index) => (
               <li key={index} className="mb-5 group-hover:text-secondary-white"><CheckIcon/> {benefit}</li>
             ))}
           </ul>

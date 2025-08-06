@@ -1,8 +1,8 @@
 import Navbar from "../components/ui/Navbar";
 import Hero from "../components/sections/Hero";
 import Productivity from "../components/sections/Productivity";
-import Sponsor from "../components/sections/Sponsor";
-import FeaturesSection from "../components/sections/FeatureSection";
+import FeaturesSection from "../components/sections/FeaturesSection";
+import Testimonial from "../components/sections/Testimonial"
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
       <Hero />
       <Productivity />
       <FeaturesSection/>
-      <Sponsor />
+      <Testimonial/>
     </>
   );
 }

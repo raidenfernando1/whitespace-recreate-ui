@@ -4,17 +4,20 @@ import Customize from "../../assets/Customize.svg"
 import Secure from "../../assets/Secure.svg"
 import PricingSection from "./PricingSection"
 import CallToActionSection from "./CallToActionSection"
+import Sponsor from "../sections/Sponsor"
+import Apps from "../../assets/Apps.svg"
 
 function FeaturesSection() {
   return (
-    <>
-      <FeatureBlock
+      <div>
+        <FeatureBlock
         title="Use as "
         highlightedText="Extension"
         description="Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes."
         image={Browsers}
         imgSize="max-w-80"
         textColor="text-secondary-white"
+        buttonText="Let's Go"
       />
       <FeatureBlock
         title="Customize it to "
@@ -24,6 +27,7 @@ function FeaturesSection() {
         reverse={true}
         textColor="text-secondary-black"
         bgColor="bg-secondary-white"
+        buttonText="Let's Go"
       />
       <PricingSection/>
       <CallToActionSection />
@@ -34,8 +38,21 @@ function FeaturesSection() {
         image={Secure}
         textColor="text-secondary-black"
         bgColor="bg-secondary-white"
+        buttonText="Read more"
       />
-    </>
+      <Sponsor/>
+      <FeatureBlock
+        title="Work with Your Favorite Apps Using whitespace"
+        description="Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success."
+        image={Apps}
+        reverse={true}
+        textColor="text-secondary-white"
+        bgColor="bg-primary-darkBlue"
+        buttonText="Read more"
+      />
+      </div>
+      
+    
   );
 }
 export default FeaturesSection

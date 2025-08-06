@@ -3,7 +3,7 @@ import Chart from "../../assets/Chart.svg";
 
 function Hero() {
   return (
-    <section className="bg-primary-darkBlue flex flex-col items-center justify-around text-center lg:h-[80vh] lg:flex-row lg:text-left xl:gap-10">
+    <section className="bg-primary-darkBlue flex flex-col items-center justify-around text-center lg:h-[80vh] lg:flex-row lg:text-left xl:gap-10 w-full">
       <div className="text-secondary-white lg:mx-5 xl:w-xl">
         <h1 className="mt-10 mb-5 text-4xl font-bold lg:text-5xl xl:text-6xl">
           Get More Done with Whitespace

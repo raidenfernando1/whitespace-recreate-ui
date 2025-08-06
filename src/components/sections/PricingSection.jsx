@@ -41,13 +41,13 @@ function PricingSection() {
   return (
     <div className="my-14">
       <div className="text-secondary-black text-center">
-        <h1 className="mb-6 text-4xl font-bold lg:text-6xl">
+        <h1 className="mt-10 mb-5 text-4xl font-bold lg:text-5xl xl:text-6xl">
           Choose{" "}
           <span className="bg-[url(./assets/Element.svg)] bg-contain bg-bottom bg-no-repeat">
             Your Plan
           </span>
         </h1>
-        <p className="mb-5 px-5 pb-4 text-lg lg:my-5 lg:px-0">
+        <p className="my-5 px-5 text-base font-light sm:font-normal md:px-5 lg:p-0 lg:text-lg xl:text-xl">
           Whether you want to get organized, keep your personal life on track,
           or boost workplace productivity, Evernote has the right plan for you.
         </p>

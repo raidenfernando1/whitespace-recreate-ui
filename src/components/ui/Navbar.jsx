@@ -15,16 +15,16 @@ function Navbar() {
       <img className="h-6 cursor-pointer" src={Logo} alt="" />
       <ul className="hidden items-center px-2 text-secondary-white md:flex md:gap-6">
         <li>
-          <a href="#">Products</a>
+          <a className="hover:text-secondary-yellow" href="#">Products</a>
         </li>
         <li>
-          <a href="#">Solutions</a>
+          <a className="hover:text-secondary-yellow" href="#">Solutions</a>
         </li>
         <li>
-          <a href="#">Resources</a>
+          <a className="hover:text-secondary-yellow" href="#">Resources</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a className="hover:text-secondary-yellow" href="#">Pricing</a>
         </li>
       </ul>
 

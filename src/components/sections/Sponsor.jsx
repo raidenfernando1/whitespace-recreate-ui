@@ -26,8 +26,14 @@ function Sponsor() {
         </h1>
       </div>
       <div className="my-10 flex flex-col items-center justify-around gap-5 sm:mx-5 sm:flex-row">
-        {Sponsors.map((Sponsor, Logo, logoName) => {
-          return <SponsorLogo key={Sponsor} Logo={Logo} logoName={logoName} />;
+        {Sponsors.map((data) => {
+          return (
+            <SponsorLogo
+              key={data.Sponsor}
+              Logo={data.Logo}
+              logoName={data.logoName}
+            />
+          );
         })}
       </div>
     </div>

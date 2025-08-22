@@ -7,26 +7,22 @@ import CallToActionSection from "./CallToActionSection";
 import Sponsor from "../sections/Sponsor";
 
 function FeaturesSection() {
-  console.log(FeatureBlockList[2].block3);
-
   return (
     <div>
-      {FeatureBlockList.map((data, index) => {
-        if (index === 1) {
-          return (
+      {FeatureBlockList.map((data, index) => (
+        <div key={`block${index}`}>
+          <FeatureBlock {...data} />
+
+          {index === 1 && (
             <>
-              <PricingSection key="pricing" />
-              <CallToActionSection key="CTA" />
+              <PricingSection />
+              <CallToActionSection />
             </>
-          );
-        }
+          )}
 
-        if (index === 3) {
-          return <Sponsor key="sponsor" />;
-        }
-
-        return <FeatureBlock key={`block${index}}`} {...data} />;
-      })}
+          {index === 2 && <Sponsor />}
+        </div>
+      ))}
     </div>
   );
 }
